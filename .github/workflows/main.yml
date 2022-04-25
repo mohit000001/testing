@@ -20,7 +20,7 @@ jobs:
           aws-secret-access-key: ${{ secrets.AWS_SECRET_ACCESS_KEY }}
           instance-ids: ${{ secrets.INSTANCE_ID }}
 
-          working-directory: /projects
+          working-directory: /home/ubuntu/projects
           command: ls -al
           comment: Hello world!
 
