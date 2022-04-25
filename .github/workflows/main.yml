@@ -21,7 +21,7 @@ jobs:
           instance-ids: ${{ secrets.INSTANCE_ID }}
 
           working-directory: /home/ubuntu/projects
-          command: ls -al
+          command: sudo touch cicdTesting.txt
           comment: Hello world!
 
       # Catch SSM outputs
